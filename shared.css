@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "poh-e-font";
+  src: url("fonts/Hacen-Maghreb.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "poh-a-font";
+  src: url("fonts/Ara\ Hamah\ AlFidaa.ttf") format("truetype");
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#page-logo a {
+  padding: 10px;
+  font-family: "oleo Script", sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #0eab79;
+}
+
+#page-logo a:hover {
+  text-shadow: 2px 2px 4px #0eab79;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+header ul {
+  display: flex;
+  justify-content: right;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #0eab79;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 12px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
+}
+
+nav a:hover {
+  background-color: #0eab79;
+  color: white;
+  border-radius: 6px;
+}
