@@ -1,0 +1,55 @@
+#headline {
+  width: 100%;
+}
+#headline h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: #0eab79;
+  width: 100%;
+  box-shadow: 8px 8px 30px #5effcc;
+  /* background: linear-gradient(180deg, #0eab79, #0a5f44); */
+}
+
+main {
+  
+  text-align: center;
+}
+
+.cover-container img {
+  width: 100%;
+  
+}
+
+main ul{
+  width: 70%;
+  margin: auto;
+  padding: 32px;
+}
+
+main h1{
+  text-transform: uppercase;
+  color: #0eab79;
+  border-bottom: 3px solid #24b7a4;
+  width: 60%;
+  margin: auto;
+  
+}
+
+#vission h1{
+  margin-bottom: 32px;
+}
+
+main li {
+ 
+  background-color: rgba(255, 255, 255, 0.06);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 80%;
+  margin: 32px auto ;
+  
+  padding: 32px;
+ 
+}

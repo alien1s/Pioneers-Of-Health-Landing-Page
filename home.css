@@ -392,7 +392,64 @@
 
 
 /* --------Start of relation Section------------ */
+#relation{
+  width: 90%;
+  margin: auto;
+ 
 
+}
+
+#relation h1{
+  width: 100%;
+  text-align: center;
+  font-family: "poh-e-font", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #09242f;
+}
+
+#relation p{
+  text-align: center;
+  font-family: "poh-e-font", sans-serif;
+  font-size: 1.2rem;
+  
+  text-transform: uppercase;
+  color: #09242f;
+}
+
+#relation ul{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.partener-contianer{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+ 
+
+}
+
+.partener-contianer a{
+  width: 50%;
+  
+} 
+
+.partener-contianer img{
+  width: 100%;
+  
+}
+.partener-contianer h4{
+  width: 50%;
+  text-align: center;
+}
 
 /* --------End of relation Section------------ */
 
