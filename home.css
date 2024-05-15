@@ -433,12 +433,13 @@
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   overflow: hidden;
+  text-align: center;
  
 
 }
 
 .partener-contianer a{
-  width: 50%;
+  width: 60%;
   
 } 
 
@@ -449,6 +450,8 @@
 .partener-contianer h4{
   width: 50%;
   text-align: center;
+  box-sizing: content-box;
+  object-fit: contain;
 }
 
 /* --------End of relation Section------------ */
