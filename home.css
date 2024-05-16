@@ -139,7 +139,7 @@
   margin: 32px 0 62px 0;
 }
 
-#feature h1{
+#feature h1 {
   width: 100%;
   text-align: center;
   font-family: "poh-e-font", sans-serif;
@@ -149,20 +149,22 @@
   color: #09242f;
 }
 
-#feature p{
+#feature p {
   width: 100%;
   text-align: center;
   font-family: "poh-e-font", sans-serif;
   font-size: 1rem;
-  
+
   text-transform: uppercase;
   color: #09242f;
 }
 
 #feature ul {
   width: 90%;
-  /* display: flex;
-    justify-content: space-around; */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  justify-content: space-around;
   margin: auto;
 }
 
@@ -175,6 +177,7 @@
   display: flex;
   justify-content: space-between;
   text-align: left;
+  /* flex-wrap: wrap; */
 }
 
 /* #feature-row1 li{
@@ -187,17 +190,13 @@
   height: 100%;
   background-color: rgb(118, 190, 167);
   border-radius: 20px;
- box-shadow: 2px 2px 4px #69a4a9;
-
+  box-shadow: 2px 2px 4px #69a4a9;
 }
 
 #feature-row1 img {
   width: 200px;
   height: 200px;
   margin: auto;
-
-  
-
 }
 
 #feature-row1-content {
@@ -234,7 +233,6 @@
   align-items: center;
   text-align: center;
 }
-
 
 #line {
   border-right: 3px solid #24b7a4;
@@ -275,8 +273,18 @@
 
 /* --------Start of CTA Section------------ */
 
+#CTA {
+  width: 100%;
+  margin: 10rem 0;
+  align-content: center;
+  padding: 3.5rem 0;
+}
+
+/* ----------- */
+
 #CTA-contianer {
-  width: 90%;
+  width: 87%;
+  height: 15rem;
   /* display: flex;
   flex-direction: column; */
 
@@ -284,23 +292,24 @@
   box-shadow: 2px 4px 8px #69a4a9;
   border-radius: 20px;
   text-align: center;
-  padding: 3% 2%;
+  padding: 2rem;
   margin: auto;
-  /* position: relative; */
-  top: 120px;
-  text-transform: uppercase;
 }
+
+/* ----------- */
 
 #CTA-content {
   text-align: left;
+  padding: 1rem;
 }
 
-/* #CTA-content h1 {
+/* ----------- */
+
+#CTA-content h1 {
   color: white;
   font-size: 50px;
   font-family: "Raleway", sans-serif;
   margin: 0;
-  
 }
 
 #CTA-content p {
@@ -308,7 +317,9 @@
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 32px;
-} */
+}
+
+/* ----------- */
 
 #CTA-contianer a {
   text-decoration: none;
@@ -329,96 +340,126 @@
 
 /* --------End of CTA Section------------ */
 
-
 /* --------Start of insights Section------------ */
 
 #insights {
-  margin: 62px 0;
-  padding: 24px;
-  background: linear-gradient(45deg, #F9FAFB, #24b7a4);
-}
-
-#insights p{
+  width: 100%;
+  margin: 10rem 0;
+  align-content: center;
   text-align: center;
   text-transform: uppercase;
-  font-size: 20px;
-  color: rgb(245, 167, 0);
-  margin: 24px 0;
+}
 
+/* ----------- */
+
+#insights p {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  color: #69a4a9;
 }
 
 #insights h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 40px;
-  color: rgb(59, 69, 64);
-  margin: 24px 0;
+  margin: 1.5rem 0;
+  font-size: 3.5rem;
+  color: #09242f;
 }
+
+/* ----------- */
+
 #insights-card {
+  width: 80%;
+  margin: 3.5rem auto;
   display: flex;
-  width: 100%;
-  margin: auto;
-  margin-bottom: 40px;
-  justify-content: center;
+  justify-content: space-between;
 }
+
+#insights-part1 {
+  display: flex;
+  background-color: #69a4a915;
+  padding: 1.5rem;
+  border-radius: 3%;
+}
+#insights-part2 {
+  display: flex;
+  background-color: #09242f17;
+  padding: 1.5rem;
+  border-radius: 2%;
+}
+
+/* ----------- */
 
 .insights-card {
-  margin: 0 20px;
-  text-transform: uppercase;
-  text-align: center;
+  width: 12rem;
+  margin: 0 1.5rem;
 }
 
-.insights-card p {
-  text-align: center;
-  font-size: 24px;
-  color: rgb(124, 123, 123);
-  margin: 20px 0;
+/* ----------- */
+
+.insights-card img {
+  width: 6rem;
+  border: 0.5rem solid #76bea749;
+  border-radius: 100%;
 }
 
-.destination strong {
-  color: rgb(0, 160, 117);
-}
+/* ----------- */
 
 .insights-card h3 {
-  height: 200px;
   width: 100%;
-  box-shadow: 2px 4px 8px rgb(68, 67, 67);
-  border-radius: 10px;
-  object-fit: cover;
+  height: 10rem;
+  font-size: 50px;
+  color: #76bea7;
+  background-color: #76bea734;
+  box-shadow: 0.5rem 0.5rem 1rem #69a4a9;
+  border-radius: 1rem;
+  align-content: center;
+}
+
+#insight2 h3 {
+  background-color: #09242f23;
+}
+
+/* ----------- */
+
+.insights-card strong {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #09242f7a;
+  font-weight: bolder;
 }
 
 /* --------End of insights Section------------ */
 
-
-
 /* --------Start of relation Section------------ */
-#relation{
-  width: 90%;
-  margin: auto;
- 
 
+#relation {
+  width: 100%;
+  margin: 10rem 0;
+  align-content: center;
+  background-color: #69a4a915;
+  padding: 3.5rem 0;
 }
 
-#relation h1{
+/* ----------- */
+
+#relation h1 {
   width: 100%;
   text-align: center;
-  font-family: "poh-e-font", sans-serif;
   font-size: 3.5rem;
   font-weight: bolder;
   text-transform: uppercase;
   color: #09242f;
 }
 
-#relation p{
+#relation p {
   text-align: center;
-  font-family: "poh-e-font", sans-serif;
-  font-size: 1.2rem;
-  
-  text-transform: uppercase;
+  font-size: 1.5rem;
+  /* text-transform: uppercase; */
   color: #09242f;
 }
 
-#relation ul{
+/* ---------- */
+
+#relation ul {
   width: 90%;
   margin: auto;
   display: grid;
@@ -426,38 +467,40 @@
   gap: 25px;
 }
 
-.partener-contianer{
+/* ---------------- */
+
+.partener-contianer {
   display: flex;
-  justify-content: space-around;
-  background-color: white;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-  overflow: hidden;
-  text-align: center;
- 
-
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.partener-contianer a{
-  width: 60%;
-  
-} 
+/* ------------------ */
 
-.partener-contianer img{
+.partener-contianer a {
+  width: 80%;
+  align-items: space-around;
+}
+
+.partener-contianer img {
   width: 100%;
-  
 }
-.partener-contianer h4{
-  width: 50%;
+
+/* -------------------- */
+
+.partener-contianer-content {
+}
+
+.partener-contianer-content h4 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
   text-align: center;
-  box-sizing: content-box;
-  object-fit: contain;
+  color: #09242f;
+  margin: 0;
 }
 
 /* --------End of relation Section------------ */
-
-
-
-
 
 /* -----------------------------Main----------------------- */
