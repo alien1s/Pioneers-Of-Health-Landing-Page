@@ -2,56 +2,112 @@
 
 /* --------Start of Hero Section------------ */
 
+/* ----------- */
+
 #hero {
-  height: 800px;
-  /* background: linear-gradient(180deg, #09242f, #76bea7 ); */
+  height: 60rem;
   background-image: url(Images/posters/pioneers\ hero\ backgrond.png);
   background-position: center;
   background-size: cover;
 }
 
+/* ----------- */
+
 #hero-content {
   width: 64rem;
   background-color: rgba(118, 190, 167, 0.8);
-  box-shadow: 2px 4px 8px #69a4a9;
-  border-radius: 10px;
+  box-shadow: 0.2rem 0.2rem 0.5rem #09242f;
+  border-radius: 2.5rem;
   text-align: center;
-  padding: 50px 0;
+  align-items: center;
+  padding: 3.5rem 0;
   margin: 0 auto;
   position: relative;
-  top: 200px;
-  text-transform: uppercase;
+  top: 6.5rem;
 }
 
 #hero-content h1 {
-  color: white;
-  font-size: 50px;
-  font-family: "Raleway", sans-serif;
+  color: #09242f;
+  font-size: 3rem;
+  text-transform: uppercase;
   margin: 0;
 }
 
-#hero-content p {
-  color: white;
-  font-size: 24px;
-  font-weight: 300;
-  margin-bottom: 32px;
+/* ----------- */
+
+#hero-logo-box {
+  height: 14rem;
+  width: 100%;
+  margin: auto;
 }
 
-#hero-content a {
+#hero-logo {
+  width: 13rem;
+}
+
+/* ----------- */
+
+#hero-button {
+  display: block;
   text-decoration: none;
-  text-transform: none;
-  background-color: rgb(255, 251, 0);
-  padding: 12px 24px;
-  color: black;
-  font-size: 24px;
-  font-weight: bold;
-  border-radius: 10px;
-  box-shadow: 1px 2px 3px rgba(238, 235, 84);
+  width: 8rem;
+  padding: 1rem;
+  margin: auto;
+  background-color: #09242f;
+  border-radius: 2rem;
+  box-shadow: 0.07rem 0.07rem 0.4rem #0bce90;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #24b7a4;
 }
 
-#hero-content a:hover {
-  background-color: rgb(255, 208, 0);
+#hero-button:hover {
+  background-color: #69a4a9;
+  color: whitesmoke;
+  box-shadow: 0.05rem 0.05rem 0.2rem #0bce90;
 }
+
+/* ----------- */
+
+#hero-content p {
+  color: #e5f7f1;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* ----------- */
+
+#hero-social {
+  width: 20rem;
+  height: 5rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------- */
+
+.hero-social-link {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+  border-radius: 4rem;
+  background-color: #09242f;
+  align-content: center;
+}
+
+.hero-social-icon {
+  width: 2rem;
+  margin-top: 0.35rem;
+}
+
+.hero-social-link:hover {
+  background-color: #0bce90;
+}
+
+/* ----------- */
 
 /* --------End of Hero Section------------ */
 
@@ -62,7 +118,6 @@
   margin: 10rem 0;
   align-content: center;
   padding: 3.5rem 0;
-  
 }
 
 /* ----------- */
@@ -122,10 +177,15 @@
 }
 
 .products-card-content h2 {
+  height: 2rem;
+  text-align: center;
 }
 
 .products-card-content p {
+  height: 12rem;
   text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid #09242f;
 }
 
 .products-card-content ul {
@@ -133,43 +193,43 @@
 }
 
 .products-card-content ul {
- margin:1.5rem 10rem 1.5rem 0;
+  width: 8rem;
+
+  align-items: left;
 }
 .products-card-content strong {
   text-align: left;
- 
-  
+  text-transform: uppercase;
 }
 
 /* ----------- */
 
-.products-card-cta{
+.products-card-cta {
   width: 10rem;
-  margin: auto;
+  height: 4rem;
   box-sizing: border-box;
-  
+  align-content: center;
 }
 
-.products-card-cta a{
+.products-card-cta a {
   text-decoration: none;
-  margin: auto;
+  align-items: center;
   padding: 1rem;
   font-size: 1.3rem;
   font-weight: bold;
   border-radius: 1rem;
+  background-color: #09242f;
+  color: #24b7a4;
+  box-shadow: 0.05rem 0.05rem 0.2rem #0bce90;
+}
+
+.products-card-cta a:hover {
   background-color: #69a4a9;
   color: whitesmoke;
   box-shadow: 0.05rem 0.05rem 0.2rem #0bce90;
 }
 
-.products-card-cta a:hover {
-  background-color: #24b7a4;
-  color: #09242f;
-  box-shadow: 0.05rem 0.05rem 0.2rem #0bce90;
-}
-
 /* ----------- */
-
 
 /* --------End of Product Section------------ */
 
@@ -543,14 +603,17 @@
   align-items: space-around;
 }
 
+.partener-contianer-img{
+  width: 80%;
+  align-items: space-around;
+}
+
+
 .partener-contianer img {
   width: 100%;
 }
 
 /* -------------------- */
-
-/* .partener-contianer-content {
-} */
 
 .partener-contianer-content h4 {
   font-size: 1.5rem;
