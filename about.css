@@ -1,55 +1,275 @@
+/* -----------------------------About----------------------- */
+
+/* --------Start of hero Section------------ */
+
+/* ----------- */
+
 #headline {
   width: 100%;
+  align-content: center;
+  background-color: #76bea7;
 }
 #headline h1 {
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
-  font-size: 40px;
+  color: #76bea7;
+  font-size: 3rem;
   font-weight: 900;
-  background-color: #0eab79;
+  background-color: #09242f;
   width: 100%;
-  box-shadow: 8px 8px 30px #5effcc;
-  /* background: linear-gradient(180deg, #0eab79, #0a5f44); */
+  margin-bottom: 0;
+  box-shadow: 1rem 1rem 2rem #69a4a9;
 }
 
-main {
-  
-  text-align: center;
+/* ----------- */
+
+.cover-container {
+  background-color: #76bea7;
 }
 
 .cover-container img {
   width: 100%;
-  
 }
 
-main ul{
-  width: 70%;
+/* ----------- */
+
+/* --------End of hero Section------------ */
+
+/* --------Start of who Section------------ */
+/* ----------- */
+
+#who {
+  width: 100%;
+  margin: 0 10rem 0 0;
+  padding: 3.5rem 0;
+  background-color: #69a4a9;
+}
+
+/* ----------- */
+
+#who-box {
+  width: 90%;
+  padding: 2rem;
+}
+
+#who-we-are {
+  width: 50%;
+  padding: 2rem;
   margin: auto;
-  padding: 32px;
+  background-color: #76bea7;
+  border-radius: 2rem;
+}
+/* ----------- */
+
+#who1 h1 {
+  text-align: center;
 }
 
-main h1{
+#who1 p {
+  text-align: center;
+}
+
+#who1 strong {
+  align-items: center;
+}
+
+/* ----------- */
+
+#who2 h2 {
+}
+
+#who2 p {
+  margin: 1rem;
+  padding: 0.2rem;
+}
+
+/* ----------- */
+
+#who3 h2 {
+}
+
+#who3 p {
+  margin: 1rem;
+  padding: 0.2rem;
+}
+
+#who3 ul {
+}
+
+#who3 li {
+  margin: 2rem;
+  padding-left: 1rem;
+  border-left: 5px solid;
+}
+
+#who-pp {
+}
+
+/* ----------- */
+
+#who4 h2 {
+}
+
+#who4 p {
+  margin: 1rem;
+  padding: 0.2rem;
+}
+
+#who4 ul {
+}
+
+#who4 li {
+  margin: 2rem;
+  padding-left: 1rem;
+  border-left: 5px solid;
+}
+
+#who4 h3 {
+}
+
+#who li p {
+  margin: 1rem;
+  padding: 0.2rem;
+}
+
+/* ----------- */
+
+/* --------End of who Section------------ */
+
+/* --------Start of case Section------------ */
+
+/* ----------- */
+
+#case {
+  width: 100%;
+  margin: 10rem 0;
+  padding: 3.5rem 0;
+}
+
+/* ----------- */
+
+#case-head {
+  width: 90%;
+  margin: auto;
+  padding: 2.5rem 0;
+}
+
+/* ----------- */
+
+#case-head h1 {
+  width: 100%;
+  font-size: 3.5rem;
+  font-weight: bolder;
   text-transform: uppercase;
-  color: #0eab79;
-  border-bottom: 3px solid #24b7a4;
-  width: 60%;
-  margin: auto;
-  
+  color: #09242f;
+  text-align: center;
 }
 
-#vission h1{
-  margin-bottom: 32px;
+#case-head p {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #69a4a9;
+  text-align: center;
 }
 
-main li {
- 
-  background-color: rgba(255, 255, 255, 0.06);
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
+/* ----------- */
+
+#case-box {
   width: 80%;
-  margin: 32px auto ;
-  
-  padding: 32px;
- 
+  margin: auto;
 }
+
+/* ----------- */
+
+/* --------End of case Section------------ */
+
+/* --------Start of Founders Section------------ */
+
+#founders {
+  width: 100%;
+  margin: 10rem 0;
+  padding: 3.5rem 0;
+}
+
+/* ----------- */
+
+#founders-head {
+  width: 90%;
+  margin: auto;
+  padding: 2.5rem 0;
+}
+
+/* ----------- */
+
+#founders-head h1 {
+  width: 100%;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #09242f;
+  text-align: center;
+}
+
+#founders-head p {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #69a4a9;
+  text-align: center;
+}
+
+/* ----------- */
+
+/* ----------- */
+
+#founders-card-box {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ----------- */
+.founders-cards {
+  width: 20rem;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #76bea7;
+  box-shadow: 0.5rem 0.5rem 1rem rgb(0, 0, 0, 0.2);
+  border-radius: 2.5rem;
+  overflow: hidden;
+}
+/* ----------- */
+
+
+.founders-cards img {
+  width: 20rem;
+  height: 25rem;
+  object-fit: cover;
+}
+/* ----------- */
+
+.founders-card-content {
+  align-items: center;
+}
+
+.founders-card-content h2 {
+  height: 2rem;
+  text-align: center;
+}
+
+.founders-card-content strong{
+  
+}
+
+
+
+/* ----------- */
+
+/* --------End of Founders Section------------ */
