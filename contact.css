@@ -1,0 +1,143 @@
+/* -----------------------------contact----------------------- */
+
+/* --------Start of Contact Section------------ */
+
+/* ----------- */
+
+#Contact {
+  width: 100%;
+  /* margin: 10rem 0; */
+  align-content: center;
+  padding: 3.5rem 0;
+  background-color: #76bea7;
+}
+
+h1 {
+  width: 100%;
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #76bea7;
+  background-color: #09242f;
+  box-shadow: 1rem 1rem 2rem #69a4a9;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* ----------- */
+
+#contact-part {
+  width: 95%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #76bea7;
+  /* box-shadow: 0.5rem 0.5rem 1rem rgb(0, 0, 0, 0.2);
+  border-radius: 2.5rem; */
+}
+
+.contact-card {
+  width: 42rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #76bea7;
+  box-shadow: 0.5rem 0.5rem 1rem rgb(0, 0, 0, 0.2);
+  border-radius: 2.5rem;
+  overflow: visible;
+}
+
+.contact-card-icon {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
+  border-radius: 5rem;
+  background-color: #09242f;
+  align-content: center;
+}
+
+.contact-card-icon:hover {
+  background-color: #0bce90;
+  padding: 0.2rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgb(0, 0, 0, 0.2);
+}
+
+.contact-card-icon img {
+  display: block;
+  width: 3rem;
+  margin: auto;
+}
+
+.contact-card h2 {
+  font-size: xx-large;
+  text-transform: uppercase;
+  color: #09242f;
+}
+
+.contact-card-text {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5rem;
+  text-decoration: none;
+  background-color: #09242f;
+  align-content: center;
+}
+
+.contact-card-text:hover {
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.contact-card p {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #76bea7;
+  margin: 0;
+}
+
+.contact-card-text p:hover {
+  color: #0bce90;
+  margin: 0.1rem;
+}
+
+/* ----------- */
+
+#social-box {
+  width: 20rem;
+  height: 5rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+
+/* ----------- */
+
+.social-box-link {
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+  border-radius: 4rem;
+  background-color: #09242f;
+  align-content: center;
+  
+}
+
+.social-box-icon {
+  width: 2.5rem;
+}
+
+.social-box-link:hover {
+  background-color: #0bce90;
+  padding: 0.2rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgb(0, 0, 0, 0.2);
+}
+
+/* ----------- */
