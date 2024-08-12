@@ -17,7 +17,7 @@ body {
   font-family: "poh-e-font", sans-serif;
 }
 
-main{
+main {
   width: 100%;
 }
 
@@ -106,7 +106,6 @@ nav a:hover {
 /* --------End of Header------------ */
 
 /* ----------------------------------------------------------------------------- */
-
 
 /* --------Start of footer------------ */
 /* --------Start of Contact Section------------ */
@@ -217,36 +216,35 @@ nav a:hover {
 
 /* ----------- */
 
-#social-box {
+#footer-social {
   width: 20rem;
   height: 5rem;
   margin: auto;
   display: flex;
-  justify-content: space-around;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
 }
 
 /* ----------- */
 
-.social-box-link {
-  width: 4rem;
-  height: 4rem;
+.footer-social-link {
+  width: 3rem;
+  height: 3rem;
   margin: 1rem;
   border-radius: 4rem;
   background-color: #09242f;
-  align-content: center;
-  
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
 
-.social-box-icon {
-  width: 2.5rem;
+.footer-social-icon {
+  width: 2rem;
+  margin-top: 0.35rem;
 }
 
-.social-box-link:hover {
+.footer-social-link:hover {
   background-color: #0bce90;
-  padding: 0.2rem;
-  box-shadow: 0.5rem 0.5rem 1rem rgb(0, 0, 0, 0.2);
 }
 
 /* ----------- */

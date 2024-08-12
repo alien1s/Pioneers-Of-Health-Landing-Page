@@ -437,6 +437,15 @@
   padding: 1rem;
 }
 
+.feature-row-content h2 {
+  font-weight: unset;
+  color: gray;
+}
+
+.feature-row-content h2 strong {
+  color: #09242f;
+}
+
 .feature-row-content-line {
   width: 80%;
   height: 0.1rem;
@@ -462,6 +471,10 @@
   background-color: #83c4ca;
 }
 
+#feature-row5 .feature-row-image {
+  background-color: #a5dde2f3;
+}
+
 /* ----------- */
 
 #feature-row1 .separate-index {
@@ -478,6 +491,10 @@
 
 #feature-row4 .separate-index {
   background-color: #83c4ca;
+}
+
+#feature-row5 .separate-index {
+  background-color: #a5dde2f3;
 }
 
 /* ----------- */
@@ -498,6 +515,10 @@
   border-right: 0.2rem solid #83c4ca;
 }
 
+#feature-row5 .separate-line {
+  border-right: 0.2rem solid #a5dde2f3;
+}
+
 /* --------End of Feature Section------------ */
 
 /* --------Start of CTA Section------------ */
@@ -513,34 +534,43 @@
 
 #CTA-contianer {
   width: 85%;
-  height: 18rem;
-  padding: 2rem;
+  height: 90%;
+  padding: 3rem;
   margin: auto;
   background-color: #09242f;
   box-shadow: 0.3rem 0.3rem 1rem #76bea7;
-  border-radius: 1rem;
-  align-content: center;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
 }
 
 /* ----------- */
 
-#CTA-contianer p {
+#CTA-content h2 {
+  font-size: 2.5rem;
+  color: whitesmoke;
+  margin: 0;
+}
+
+#CTA-content p {
   font-size: 1.5rem;
   font-weight: 900;
-  color: #76bea7;
+  color: #69a4a9;
+  margin: 0;
 }
 
-#CTA-contianer h1 {
+#CTA-content h1 {
   font-size: 3.5rem;
   font-style: italic;
-  color: whitesmoke;
+  color: #24b7a4;
 }
 
 /* ----------- */
 
-#CTA-contianer a {
+#CTA-button a {
   text-decoration: none;
-  display: block;
   width: 8rem;
   padding: 1rem;
   background-color: #24b7a4;
@@ -552,7 +582,7 @@
   color: #09242f;
 }
 
-#CTA-contianer a:hover {
+#CTA-button a:hover {
   background-color: #69a4a9;
   color: whitesmoke;
   box-shadow: 0.05rem 0.05rem 0.2rem #c4eee0;

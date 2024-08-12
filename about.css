@@ -45,14 +45,57 @@
   background-color: #69a4a9;
 }
 
-/* ----------- */
-
 #who-box {
   width: 90%;
   padding: 2rem;
 }
 
-#who-we-are {
+/* ----------- */
+
+#about{
+  padding: 2rem;
+  margin: auto;
+}
+
+/* ----------- */
+
+#brief{
+  width: 70%;
+  padding: 2rem;
+  margin: auto;
+  background-color: #76bea7;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+#brief h1,h2{
+  text-align: center;
+}
+
+/* ----------- */
+
+#vm-contianer{
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.vm{
+  width: 30rem;
+  padding: 2rem;
+  margin: auto;
+  background-color: #76bea7;
+  border-radius: 2rem;
+}
+
+.vm h1{
+  text-align: center;
+}
+/* ----------- */
+
+#Breakdown {
   width: 50%;
   padding: 2rem;
   margin: auto;
@@ -61,42 +104,42 @@
 }
 /* ----------- */
 
-#who1 h1 {
+#Breakdown1 h1 {
   text-align: center;
 }
 
-#who1 p {
+#Breakdown1 p {
   text-align: center;
 }
 
-#who1 strong {
+#Breakdown1 strong {
   align-items: center;
 }
 
 /* ----------- */
 
-#who2 h2 {
+#Breakdown2 h2 {
 }
 
-#who2 p {
+#Breakdown2 p {
   margin: 1rem;
   padding: 0.2rem;
 }
 
 /* ----------- */
 
-#who3 h2 {
+#Breakdown3 h2 {
 }
 
-#who3 p {
+#Breakdown3 p {
   margin: 1rem;
   padding: 0.2rem;
 }
 
-#who3 ul {
+#Breakdown3 ul {
 }
 
-#who3 li {
+#Breakdown3 li {
   margin: 2rem;
   padding-left: 1rem;
   border-left: 5px solid;
@@ -107,24 +150,24 @@
 
 /* ----------- */
 
-#who4 h2 {
+#Breakdown4 h2 {
 }
 
-#who4 p {
+#Breakdown4 p {
   margin: 1rem;
   padding: 0.2rem;
 }
 
-#who4 ul {
+#Breakdown4 ul {
 }
 
-#who4 li {
+#Breakdown4 li {
   margin: 2rem;
   padding-left: 1rem;
   border-left: 5px solid;
 }
 
-#who4 h3 {
+#Breakdown4 h3 {
 }
 
 #who li p {
@@ -180,7 +223,7 @@
   margin: auto;
 }
 
-#case img{
+#case img {
   width: 15rem;
 }
 
@@ -252,7 +295,6 @@
 }
 /* ----------- */
 
-
 .founders-cards img {
   width: 20rem;
   height: 25rem;
@@ -269,11 +311,8 @@
   text-align: center;
 }
 
-.founders-card-content strong{
-
+.founders-card-content strong {
 }
-
-
 
 /* ----------- */
 
