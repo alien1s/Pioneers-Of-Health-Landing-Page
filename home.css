@@ -63,12 +63,13 @@
   text-align: center;
   font-size: 1.5rem;
   font-weight: bolder;
-  color: #24b7a4;
+  color: #76bea7;
 }
 
 #hero-button:hover {
   background-color: #69a4a9;
   color: whitesmoke;
+  padding: 1.2rem;
   box-shadow: 0.05rem 0.05rem 0.2rem #0bce90;
 }
 
@@ -221,16 +222,19 @@
   padding: 1rem;
   font-size: 1.3rem;
   font-weight: bold;
-  border-radius: 1rem;
+  border-radius: 2rem;
   background-color: #09242f;
-  color: #24b7a4;
+  color: #76bea7;
   box-shadow: 0.05rem 0.05rem 0.2rem #0bce90;
+  
 }
 
 .products-card-cta a:hover {
   background-color: #69a4a9;
   color: whitesmoke;
+  padding: 1.2rem;
   box-shadow: 0.05rem 0.05rem 0.2rem #0bce90;
+  
 }
 
 /* ----------- */
@@ -278,32 +282,32 @@
 
 #Services ul {
   width: 90%;
-  margin: 0 auto 48px auto;
+  margin: 0 auto 3rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 3rem;
 }
 
 #Services li {
   display: flex;
   background-color: white;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
+  box-shadow: 0.1rem 0.1rem 2rem rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
   overflow: hidden;
 }
 
 /* ----------- */
 
 #Services li img {
-  width: 300px;
-  height: 280px;
+  width: 20rem;
+  height: 20rem;
   object-fit: cover;
 }
 
 /* ----------- */
 
 .Services-items {
-  padding: 24px;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -322,13 +326,14 @@
 }
 .Services-actions a {
   text-decoration: none;
-  padding: 6px;
-  color: #24b7a4;
-  border-radius: 5px;
+  padding: 0.6rem;
+  color: #76bea7;
+  border-radius: 2rem;
 }
 
 .Services-actions a:hover {
-  background-color: rgb(235, 253, 255);
+  background-color: #09242f96;
+ 
 }
 
 /* ----------- */
@@ -521,6 +526,155 @@
 
 /* --------End of Feature Section------------ */
 
+/* --------Start of case Section------------ */
+
+#case {
+  width: 100%;
+  margin: 10rem 0;
+  padding: 3.5rem 0;
+}
+
+/* ----------- */
+
+#case-head {
+  width: 90%;
+  margin: auto;
+  padding: 2.5rem 0;
+}
+
+#case-head h1 {
+  width: 100%;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #09242f;
+  text-align: center;
+}
+
+#case-head p {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #76bea7;
+  text-align: center;
+}
+
+/* ----------- */
+
+#cases-box {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.1rem;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+/* ----------- */
+
+.case-card {
+  padding: 3rem;
+  margin: 3rem;
+  background-color: #76bea7;
+  border-radius: 3rem;
+  box-shadow: 0 4rem 10rem rgba(0, 0, 0, 0.1);
+  max-width: 30rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.case-card:hover {
+  transform: translateY(-2rem);
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.album-imgs img,
+.case-vid video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+.case-card h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #09242f;
+  text-align: center;
+}
+
+.case-card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 3rem;
+}
+
+.slider-wrapper {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider,
+.case-vid {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+  overflow: hidden;
+  border-radius: 3rem;
+  background-color: #000;
+}
+
+.album-imgs {
+  flex: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive Image Size */
+#case img {
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
+}
+
+/* --------End of case Section------------ */
+
 /* --------Start of CTA Section------------ */
 
 #CTA {
@@ -543,7 +697,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  
 }
 
 /* ----------- */
@@ -564,7 +717,7 @@
 #CTA-content h1 {
   font-size: 3.5rem;
   font-style: italic;
-  color: #24b7a4;
+  color: #76bea7;
 }
 
 /* ----------- */
@@ -573,7 +726,7 @@
   text-decoration: none;
   width: 8rem;
   padding: 1rem;
-  background-color: #24b7a4;
+  background-color: #76bea7;
   border-radius: 2rem;
   box-shadow: 0.05rem 0.05rem 0.2rem #0bce90;
   text-align: center;
@@ -586,6 +739,7 @@
   background-color: #69a4a9;
   color: whitesmoke;
   box-shadow: 0.05rem 0.05rem 0.2rem #c4eee0;
+  padding: 1.2rem;
 }
 
 /* --------End of CTA Section------------ */
